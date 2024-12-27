@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hi, I'm Abhinay, a third-year Civil Engineering student at IIT Hyderabad. Alongside my academic pursuits, I have a keen interest in writing stories and playing cricket. I'm also excited about the rapidly developing field of internet technologies, and I enjoy staying updated on the latest advancements in the digital world.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Programming (Python, C, C++ HTML, CSS, JavaScript)</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><a href="https://github.com/AbhiVarshith">GitHub</a></li>
+            <li><a href="ce22btech11027@iith.ac.in">Email</a></li>
+        </ul>
+    </section>
+
+    <section id="chatbot">
+        <h2>Chatbot</h2>
+        <div id="chat-container">
+            <div id="chat-history"></div>
+        </div>
+        <form method="POST" action="/chatbot">
+            <input type="text" name="user_input" placeholder="Enter your message">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
